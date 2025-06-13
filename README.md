@@ -4,4 +4,4 @@ This repository is created solely for the purpose of practicing JavaScript. It c
 
 ## Contents
 
-- `Something` – Simple e-commerce web page functionalities
+- `eCommerce` – Simple e-commerce web page functionalities
