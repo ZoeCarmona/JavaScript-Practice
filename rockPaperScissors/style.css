@@ -34,7 +34,47 @@ body {
     font-size: 5.5rem;
 }
 
+/* --------------------------------------------------------------- */
+/* Main Content */
+.main {
+    padding: 2rem;
+}
 
+.main .row .aboutTittle {
+    text-align: left;
+}
+
+.main .row .rulesTittle {
+    text-align: right;
+}
+
+.main .row .textAbout p{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.main .row .textRules p{
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.main .row .textAbout {
+    height: 150px;
+    background-color: blue;
+    border: black solid 2px;
+}
+
+.main .row .textRules {
+    height: 240px;
+    background-color: blue;
+    border: black solid 2px;
+}
+
+.main .row .playButton {
+    height: 40px;
+    background-color: blue;
+    border: black solid 2px;
+}
 
 
 /* --------------------------------------------------------------- */
