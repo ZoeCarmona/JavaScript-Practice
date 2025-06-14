@@ -60,6 +60,16 @@ body {
     text-align: right;
 }
 
+.main .row .divButton .playButton  {
+    height: 4rem;
+    width: 20rem;
+    font-size: 2.5rem;
+    background-color: #5900F2;
+    color: white;
+    border: none;
+    border-radius: 10rem;
+}
+
 /* --------------------------------------------------------------- */
 /* Footer */
 .footer {
