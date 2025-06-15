@@ -4,4 +4,5 @@ This repository is created solely for the purpose of practicing JavaScript. It c
 
 ## Contents
 
-- `eCommerce` – Simple e-commerce web page functionalities
+- `eCommerce` – Simple e-commerce web page functionalities.
+- `simpleProjects` – Traditional projects for a web developer (games).
