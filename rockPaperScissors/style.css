@@ -109,3 +109,65 @@ body {
     width: 64px;
     height: 64px;
 }
+
+/* --------------------------------------------------------------- */
+/* ----------------------- GAME -----------------------------------*/
+
+/* Título de la ronda */
+.round-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.score-label {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* Círculos de puntuación */
+.score-circles {
+    display: flex;
+    gap: 3.0rem; 
+}
+
+.circle {
+    width: 2.0rem; 
+    height: 2.0rem;
+    border-radius: 50%;
+    border: 2px solid #FFF; 
+    background-color: transparent; 
+    /* Para rellenar, agregar una clase con JS, por ejemplo:
+    &.filled {
+        background-color: #FFF;
+    }
+    */
+}
+
+/* Línea Divisoria Vertical */
+.vertical-divider {
+    width: 4px; 
+    height: 250px; 
+    background-color: white;
+    border-radius: 2px; 
+    margin: 0;
+}
+
+/* Media Queries para responsividad (ajustes para pantallas más pequeñas) */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column; /* Apilar las secciones en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .vertical-divider {
+        width: 80%; /* La línea se vuelve horizontal */
+        height: 2px;
+        margin: 30px 0; /* Espaciado vertical */
+    }
+
+    .player-section, .opponent-section {
+        margin: 0; /* Eliminar márgenes laterales en apilamiento */
+    }
+}

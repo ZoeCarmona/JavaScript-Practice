@@ -27,7 +27,40 @@
 
     <!-- Main Content -->
     <main class="main"> 
-        <h2 id="roundNumber"></h2>
+        <div class="game-container d-flex flex-column align-items-center justify-content-center vh-100">
+        <h2 class="round-title text-center mb-5">Round 1</h2>
+
+        <div class="content-wrapper d-flex justify-content-center align-items-stretch w-100">
+
+            <div class="player-section d-flex flex-column align-items-center me-4">
+                <h3 class="score-label text-center">YOUR SCORE</h3>
+                <div class="score-circles mb-4">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="choices d-flex gap-4 mb-3">
+                    <div class="choice-icon"><i class="fa-solid fa-hand-fist"></i></div>
+                    <div class="choice-icon"><i class="fa-solid fa-hand"></i></div>
+                    <div class="choice-icon"><i class="fa-solid fa-hand-peace"></i></div>
+                </div>
+                <p class="pick-text">Pick one</p>
+            </div>
+
+            <div class="vertical-divider mx-5"></div>
+
+            <div class="opponent-section d-flex flex-column align-items-center ms-4">
+                <h3 class="score-label text-center">OPPONENT'S SCORE</h3>
+                <div class="score-circles mb-4">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <p class="opponent-ready">Opponent Ready!</p>
+            </div>
+
+        </div>
+    </div>
     </main>
     
 
